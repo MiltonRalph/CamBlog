@@ -60,7 +60,7 @@ const TrendingPage = () => {
                 loading='lazy'
                 className='absolute w-full h-full rounded-lg'
               />
-              <a href=''>
+              <Link to='/Posts/Post2'>
                 <div className='z-10 absolute bottom-5 left-3 flex flex-col items-left text-lightColor md:bottom-10'>
                   <CardHeader className='absolute flex-row items-center rounded-full px-2 py-1.5 text-xs bg-selfColor text-bgColor md:py-2'>
                     <span className='mr-1'>
@@ -72,7 +72,7 @@ const TrendingPage = () => {
                     The AI magically removes moving objects from videos.
                   </CardFooter>
                 </div>
-              </a>
+              </Link>
             </CardContent>
           </Card>
           <Card>
@@ -83,7 +83,7 @@ const TrendingPage = () => {
                 loading='lazy'
                 className='absolute w-full h-full rounded-lg'
               />
-              <a href=''>
+              <Link to='/Posts/Post3'>
                 <div className='z-10 absolute bottom-5 left-3 flex flex-col items-left text-lightColor md:bottom-10'>
                   <CardHeader className='absolute flex-row items-center rounded-full px-2 py-1.5 text-xs bg-selfColor text-bgColor md:py-2'>
                     <span className='mr-1'>
@@ -95,7 +95,7 @@ const TrendingPage = () => {
                     The AI magically removes moving objects from videos.
                   </CardFooter>
                 </div>
-              </a>
+              </Link>
             </CardContent>
           </Card>
           <Card>
@@ -106,7 +106,7 @@ const TrendingPage = () => {
                 loading='lazy'
                 className='absolute w-full h-full rounded-lg'
               />
-              <a href=''>
+              <Link to='/Posts/Post4'>
                 <div className='z-10 absolute bottom-5 left-3 flex flex-col items-left text-lightColor md:bottom-10'>
                   <CardHeader className='absolute flex-row items-center rounded-full px-2 py-1.5 text-xs bg-lifeColor text-bgColor md:py-2'>
                     <span className='mr-1'>
@@ -118,7 +118,7 @@ const TrendingPage = () => {
                     The AI magically removes moving objects from videos.
                   </CardFooter>
                 </div>
-              </a>
+              </Link>
             </CardContent>
           </Card>
           <Card>
@@ -129,7 +129,7 @@ const TrendingPage = () => {
                 loading='lazy'
                 className='absolute w-full h-full rounded-lg'
               />
-              <a href=''>
+              <Link to='/Posts/Post5'>
                 <div className='z-10 absolute bottom-5 left-3 flex flex-col items-left text-lightColor md:bottom-10'>
                   <CardHeader className='absolute flex-row items-center rounded-full px-2 py-1.5 text-xs bg-healthColor text-bgColor md:py-2'>
                     <span className='mr-1'>
@@ -141,7 +141,7 @@ const TrendingPage = () => {
                     The AI magically removes moving objects from videos.
                   </CardFooter>
                 </div>
-              </a>
+              </Link>
             </CardContent>
           </Card>
         </div>

@@ -54,7 +54,7 @@ export function CarouselPlugin() {
     'absolute inline-flex items-center rounded-full px-3 py-1 text-xs bg-lifeColor text-bgColor',
     'absolute inline-flex items-center rounded-full px-3 py-1 text-xs bg-selfColor text-bgColor',
   ];
-  const link = ['./blogs', './blogs', './blogs', './blogs']
+  const link = ['./Posts/Post1', './Posts/Post2', './Posts/Post5', './Posts/Post6']
   return (
     <Carousel
       plugins={[plugin.current]}
